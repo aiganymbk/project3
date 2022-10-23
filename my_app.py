@@ -2,10 +2,10 @@ from PyQt5.QtCore import Qt
 from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QPushButton, QVBoxLayout,QHBoxLayout
 from instr import *
 from second_win import *
-
+# Я пытаюсь добавить какие то изменение в ваш код
 def ShowWindow():
     main_win.hide()
-    main_win = TestWin()
+    test_win = TestWin()
 
 app = QApplication([])
 main_win = QWidget()
